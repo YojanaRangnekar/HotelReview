@@ -212,9 +212,12 @@ public class JExcelAPIDemo
                               "9" };
 
         String review_excel = new String();
-        String path = new String("\\Final.xls\\");
+        /*String path = new String("\\Final.xls\\");
         String sw = new String("\\Final\\Stopwords\\");
-        String lem = new String("\\Final\\Lemmatized\\");
+        String lem = new String("\\Final\\Lemmatized\\");*/
+        String path = new String("resources/final_");
+        String sw = new String("resources/final_Stopwords_");
+        String lem = new String("resources/final_Lemmatized_");
         if (id == 1)
         {
             path = path + "Poptates-1.xls";
